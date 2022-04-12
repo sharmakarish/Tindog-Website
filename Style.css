@@ -1,0 +1,184 @@
+
+body{
+   text-align: center;
+}
+ /* Navigation Bar */
+
+ .navbar{
+    border-radius: 23px;
+    padding-bottom: 0.5rem;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.navbar-brand{
+        font-family: "Ubuntu";
+        font-size: 2rem;
+        font-weight: bold;
+}
+.nav-item{
+    padding: 0px 19px;
+      font-family: "Montserrat-light";
+
+}
+
+.nav-link{
+
+}
+
+/* Title Section */
+
+#title{
+    background-color: #ff4c68; 
+}
+.title-heading{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Architects Daughter', cursive;
+    text-align: left;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% ;
+}
+.download-btn{
+    margin: 5% 5% 3% 0;
+}
+/*-------  title-img----------------------------------- */
+.title-img{
+    width: 50%;
+    transform: rotate(30deg);
+     /* margin:10% 0 0 20%; top right bottom left */
+     position: absolute;
+     right: 20%;
+}
+/*-------- Features section--------------------------------- */
+ #features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: blanchedalmond;
+}
+.featurebox{
+    padding: 4.5%;
+}
+.icon{
+color: #ff4c68;
+margin-bottom: 1rem;
+
+}
+.icon:hover{
+    color: #ce2e46;
+}
+ .features-heading{
+     font-weight: bolder;
+} 
+.para{
+    color: #8f8f8f;
+    font-weight: 500;
+} 
+
+/*------- testimonials------------------------------------------ */
+#testimonials{
+    
+    background-color:#ff4c67e1;
+    color: yellow;
+}
+.carousel-item{
+    padding: 9% 13%;
+}
+#testimonials h2{
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+}
+.testimonial-img{
+    width: 14%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+/*---------- press section--------------------------- */
+#press{
+    padding: 5%;
+    background-color: blanchedalmond;
+}
+
+.media{
+    font-family: 'Bangers', cursive;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    
+}
+.press-img{
+    width: 15%;
+    margin: 4%;
+}
+/*-----------------pricing section------------------- */
+#pricing{
+    /* box-sizing: border-box; */
+    background-color: #8f8f8f;
+     padding: 4% 15%;
+  
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.card{
+    margin: 20px;
+    /* height: 350px; */
+}
+.pricing-btn{
+    width: 100%;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    position: relative;
+    border-radius: 5px;
+}
+
+/*-------- responsive------------------------------------------- */
+@media(max-width:992px) {
+    #title{
+        text-align: center;
+        
+    }
+ 
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        height: 40rem;
+    }
+}
+
+/* --------call to action section -------------------------*/
+.cta{
+background-color: #ff4c68;
+padding:  9% 13%;
+
+}
+ .cta h3{
+     font-size: 3rem;
+     color: white;
+ }
+
+ /* footer section  */
+
+ #footer{
+        padding: 7% 20%;
+ }
+ #footer p{
+     margin-top: 13px;
+     color: #8f8f8f94;
+    font-size: 14px;
+    font-weight:bold;
+ }
+.footer-icon{
+margin: 3px;
+ }
+ .footer-text{
+    font-family: "Architects Daughter";
+    font-size: 60px;
+ }
